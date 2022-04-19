@@ -1,0 +1,53 @@
+﻿usstate,usstate_abbr,usstate_name,usstate_gvnr_pols
+1,AL,Alabama,Republican
+2,AK,Alaska,Republican
+3,AZ,Arizona,Republican
+4,AR,Arkansas,Republican
+5,CA,California,Democrat
+6,CO,Colorado,Democrat
+7,CT,Connecticut,Democrat
+8,DE,Delaware,Democrat
+9,DC,District of Columbia,Democrat
+10,FL,Florida,Republican
+11,GA,Georgia,Republican
+12,HI,Hawaii,Democrat
+13,ID,Idaho,Republican
+14,IL,Illinois,Democrat
+15,IN,Indiana,Republican
+16,IA,Iowa,Republican
+17,KS,Kansas,Democrat
+18,KY,Kentucky,Democrat
+19,LA,Louisiana,Democrat
+20,ME,Maine,Democrat
+21,MD,Maryland,Republican
+22,MA,Massachusetts,Republican
+23,MI,Michigan,Democrat
+24,MN,Minnesota,Democrat
+25,MS,Mississippi,Republican
+26,MO,Missouri,Republican
+27,MT,Montana,Republican
+28,NE,Nebraska,Republican
+29,NV,Nevada,Democrat
+30,NH,New Hampshire,Republican
+31,NJ,New Jersey,Democrat
+32,NM,New Mexico,Democrat
+33,NY,New York,Democrat
+34,NC,North Carolina,Democrat
+35,ND,North Dakota,Republican
+36,OH,Ohio,Republican
+37,OK,Oklahoma,Republican
+38,OR,Oregon,Democrat
+39,PA,Pennsylvania,Democrat
+40,PR,Puerto Rico,
+41,RI,Rhode Island,Democrat
+42,SC,South Carolina,Republican
+43,SD,South Dakota,Republican
+44,TN,Tennessee,Republican
+45,TX,Texas,Republican
+46,UT,Utah,Republican
+47,VT,Vermont,Republican
+48,VA,Virginia,Democrat
+49,WA,Washington,Democrat
+50,WV,West Virginia,Republican
+51,WI,Wisconsin,Democrat
+52,WY,Wyoming,Republican
