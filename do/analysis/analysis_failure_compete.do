@@ -28,7 +28,7 @@ replace fail_mand=0 if vaxdoseMand==0
 
 stset days_since_apr01, id(subject_id) failure(fail_nonmand_mand==1) origin(t 7) enter(t 7) exit(t 136) scale(1)
 
-stcrreg contrib vx1adultHazRtHat, compete(fail_nonmand_mand==2) //vce(jackknife)
+stcrreg contrib vx1adultHazRtHat, compete(fail_nonmand_mand==2) vce(jackknife)
 eststo e1, title("Non-mandated")
 
 stcurve, cif at(contrib=(0,2,4)) xlabel(1 "Apr 9" 14 "Apr 10-30" 29 "May 1-10" 39 "May 11-20" 49 "May 21-31" 60 "Jun 1-10" 70 "Jun 11-20" 80 "Jun 21-30" 90 "Jul 1-10" 100 "Jul 11-20" 110 "Jul 21-31" 121 "Aug 1-10" 128 "Aug 11-13", angle(45)) xtitle("") ytitle("") legend(c(1) subtitle("Contribution in" "public-good game") lab(1 "$0") lab(2 "$2") lab(3 "$4") ring(0) pos(5) order(1 2 3)) title("Non-mandated vaccination, competing with mandated") subtitle("Conditional on county-by-day predicted hazard rate", margin(b=2)) ytitle("Cumulative incidence", margin(r=2)) lpattern(solid solid solid) lwidth(*1.5 *1.5 *1.5) yla(0(0.1)0.4) lcolor(red%60 purple%60 blue%60)
@@ -40,7 +40,7 @@ graph export figures/figure_cif_atContrib_mand0.pdf, replace
 
 stset days_since_apr01, id(subject_id) failure(fail_nonmand_mand==2) origin(t 7) enter(t 7) exit(t 136) scale(1)
 
-stcrreg contrib vx1adultHazRtHat, compete(fail_nonmand_mand==1) //vce(jackknife)
+stcrreg contrib vx1adultHazRtHat, compete(fail_nonmand_mand==1) vce(jackknife)
 eststo e3, title("Mandated")
 
 stcurve, cif at(contrib=(0,2,4)) xlabel(1 "Apr 9" 14 "Apr 10-30" 29 "May 1-10" 39 "May 11-20" 49 "May 21-31" 60 "Jun 1-10" 70 "Jun 11-20" 80 "Jun 21-30" 90 "Jul 1-10" 100 "Jul 11-20" 110 "Jul 21-31" 121 "Aug 1-10" 128 "Aug 11-13", angle(45)) xtitle("") ytitle("") legend(c(1) subtitle("Contribution in" "public-good game") lab(1 "$0") lab(2 "$2") lab(3 "$4") ring(0) pos(2) order(1 2 3)) title("Mandated vaccination, competing with non-mandated") subtitle("Conditional on county-by-day predicted hazard rate", margin(b=2)) ytitle("Cumulative incidence", margin(r=2)) lpattern(solid solid solid) lwidth(*1.5 *1.5 *1.5) yla(0(0.1)0.4) lcolor(red%60 purple%60 blue%60)

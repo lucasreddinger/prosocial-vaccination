@@ -29,17 +29,17 @@ replace fail_mand=0 if vaxdoseMand==0
 stset days_since_apr01, id(subject_id) failure(fail_nonmand==1) origin(t 7) enter(t 7) exit(t 136) scale(1)
 
 stcox contrib, efron vce(robust)
-eststo e4rbst, title("Asympt." "robust")
+eststo e4rbst, title("Huber-" "White")
 stcox contrib, efron vce(cluster usstate)
-eststo e4clst, title("Cluster" "on US state")
-stcox contrib, efron //vce(jackknife)
+eststo e4clst, title("Cluster on" "U.S. state")
+stcox contrib, efron vce(jackknife)
 eststo e4jack, title("Jackknife")
 
 stcox contrib vx1adultHazRtHat, efron vce(robust)
-eststo e5rbst, title("Asympt." "robust")
+eststo e5rbst, title("Huber-" "White")
 stcox contrib vx1adultHazRtHat, efron vce(cluster usstate)
-eststo e5clst, title("Cluster" "on US state")
-stcox contrib vx1adultHazRtHat, efron //vce(jackknife)
+eststo e5clst, title("Cluster on" "U.S. state")
+stcox contrib vx1adultHazRtHat, efron vce(jackknife)
 eststo e5jack, title("Jackknife")
 
 esttab e4jack e5jack using tables/table_failure_cox.rtf, replace rtf eform se nomtitles nodepvar nonotes title("Cox regressions of vaccination hazard (not attributed to a mandate)") coeflabels(contrib "Contribution in public-good game ($)"  vx1adultHazRtHat "Predicted county-by-day first-dose hazard rate") addnote("* p < 0.05, ** p < 0.01, *** p < 0.001. {\i Notes:} Coefficients exponentiated (hazard ratios). Jackknife standard errors in parentheses. Efron method used for ties. Vaccination attributed to a mandate is censored.")
