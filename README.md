@@ -1,11 +1,33 @@
 ## Licensing
 
+### Original software
+
+Copyright (c) 2021, 2022 Jonathan Lucas Reddinger &lt;jlr@lucasreddinger.com&gt;
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+### Original data 
+
+* J. Lucas Reddinger, Gary Charness, David Levine
+* [https://osf.io/m2s6r/download](https://osf.io/m2s6r/download)
+* Licensed as [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/).
+
 ### Imported datasets
 
 #### "COVID Data Tracker"
 * Centers for Disease Control
 * [https://covid.cdc.gov/covid-data-tracker/](https://covid.cdc.gov/covid-data-tracker/)
-* Accessed on 2022-01-11 and archived at [./data/cdc_variants.csv](./data/cdc_variants.csv)
+* Accessed on 2022-01-11 and archived at [https://osf.io/28r3w/download](https://osf.io/28r3w/download)
 
 #### "United States COVID-19 County Level of Community Transmission Historical Changes"
 * Centers for Disease Control
@@ -30,25 +52,4 @@
 #### "State Political Parties"
 * Kaiser Family Foundation
 * [https://www.kff.org/other/state-indicator/state-political-parties/](https://www.kff.org/other/state-indicator/state-political-parties/)
-* Accessed on 2022-01-11 and archived at [./data/governor_pols.csv](./data/governor_pols.csv)
-
-### Original data 
-
-[./data/Reddinger_Charness_Levine_prosocial_vaccination.csv](data/Reddinger_Charness_Levine_prosocial_vaccination.csv)
-is licensed as [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
-
-### Original software
-
-Copyright (c) 2021, 2022 Jonathan Lucas Reddinger <jlr@lucasreddinger.com>
-
-Permission to use, copy, modify, and distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+* Accessed on 2022-01-11 and archived at [https://osf.io/7fus3/download](https://osf.io/7fus3/download)

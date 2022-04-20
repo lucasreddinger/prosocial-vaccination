@@ -131,7 +131,7 @@ replace vx1adultRtWoW=0 if vx1adultRtWoW<0
 sum vx1adultRtWoW, detail
 hist vx1adultRtWoW
 
-gen vx1adultHazRt = 100 * vx1adultRtWoW / (100 - vx1adultRtMA07dL)
+gen vx1adultHazRt = 100 * vx1adultRtWoW / (100 - vx1adultRtMA07dLL)
 sum vx1adultHazRt, detail
 hist vx1adultHazRt
 replace vx1adultHazRt=0 if vx1adultHazRt<0
