@@ -1,4 +1,4 @@
-## Licensing
+## Licenses
 
 ### Original software
 
