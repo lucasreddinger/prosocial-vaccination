@@ -1,7 +1,6 @@
 ## Licenses
 
-### Original software
-
+### Original source code
 Copyright (c) 2021, 2022 J. Lucas Reddinger &lt;jlr@lucasreddinger.com&gt;
 
 Permission to use, copy, modify, and distribute this software for any
