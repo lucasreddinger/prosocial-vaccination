@@ -2,7 +2,7 @@
 
 ### Original software
 
-Copyright (c) 2021, 2022 Jonathan Lucas Reddinger &lt;jlr@lucasreddinger.com&gt;
+Copyright (c) 2021, 2022 J. Lucas Reddinger &lt;jlr@lucasreddinger.com&gt;
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
